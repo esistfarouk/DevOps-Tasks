@@ -1,0 +1,18 @@
+/var/log/daily-backup_logs/Success/daily_backup.log {
+    daily
+    rotate 5
+    missingok
+    copytruncate
+    dateext
+    dateformat -%Y-%m-%d
+    # compress   ← remove or comment this line
+}
+/var/log/daily-backup_logs/Failed/daily_backup.log {
+    daily
+    rotate 5
+    missingok
+    copytruncate
+    dateext
+    dateformat -%Y-%m-%d
+    # compress   ← remove or comment this line
+} 
