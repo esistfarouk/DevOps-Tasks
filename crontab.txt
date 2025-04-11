@@ -1,0 +1,6 @@
+crontab -e
+
+0 0 * * * sudo bash /home/farouk/Desktop/devops/Scored-Tasks/Daily-Backup-and-Lamp-Stack-Deployment/Daily-Backup/DailyBackup.sh
+
+
+
