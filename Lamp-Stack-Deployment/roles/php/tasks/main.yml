@@ -1,0 +1,16 @@
+---
+- name: Install PHP
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - php
+    - php-mysql
+    - libapache2-mod-php
+  notify: restart apache
+
+- name: Deploy PHP page for testing
+  copy:
+    content: "<?php phpinfo(); ?>"
+    dest: /var/www/html/index.php
+    mode: 0644 #readable by the web server but not modifiable by others.
