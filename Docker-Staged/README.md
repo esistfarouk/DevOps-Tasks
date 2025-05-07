@@ -36,9 +36,9 @@ Trivy vulnerability reports for all components:
 
 | Component       | Scan Report                              |
 |-----------------|------------------------------------------|
-| FastAPI Service | ![FastAPI Scan](Docker-Staged/Security-Results/staged-fast-api-trivy.png) |
-| PostgreSQL      | ![PostgreSQL Scan](Docker-Staged/Security-Results/postgres-trivy.png)     |
-| Nginx & Redis   | ![Nginx/Redis Scan](Docker-Staged/Security-Results/nginx-and-redis-trivy.png) |
+| FastAPI Service | ![FastAPI Scan](Security-Results/staged-fast-api-trivy.png) |
+| PostgreSQL      | ![PostgreSQL Scan](Security-Results/postgres-trivy.png)     |
+| Nginx & Redis   | ![Nginx/Redis Scan](Security-Results/nginx-and-redis-trivy.png) |
 
 ## Quick Start
 
